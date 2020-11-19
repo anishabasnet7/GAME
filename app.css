@@ -1,0 +1,48 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.player{
+  border: 1px solid transparent;
+  background: yellow;
+  width:400px;
+  height:340px;
+  text-align: center;
+  margin: auto;
+}
+
+.player--0{
+  background: orange;
+}
+
+.current{
+  width:200px;
+  border: 1px solid transparent;
+  background: green;
+  margin: auto;
+}
+.btn,.dice0,.dice1{
+  position: absolute;
+}
+
+.dice0,.dice1{
+  width:50px;
+}
+.dice0{
+  top:5rem;
+}
+.dice1{
+  top:10rem;
+}
+.btn--new {
+  top:1rem;
+}
+.btn--roll {
+  top: 16rem;
+}
+.btn--hold {
+  top: 20rem;
+}
